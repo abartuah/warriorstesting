@@ -19,3 +19,5 @@
   - name: remove docker images form ansible server
     command: docker rmi simple-devops-image:latest abartuah/abartuah/tomcat-web1
     ignore_errors: yes
+    
+    systemctl 
