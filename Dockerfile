@@ -7,7 +7,7 @@
     command: docker build -t abartuah/abartuah/tomcat-web1 .
     args:
       chdir: /opt/k8s-lab
-	  RUN: httpd
+	  RUN: httpd.
 	  - name: service start httdp
 
   - name: create tag to image
